@@ -2,13 +2,13 @@ import { CanMatchFn, RedirectCommand, Router, Routes } from '@angular/router';
 import { inject } from '@angular/core';
 
 import { routes as userRoutes } from './users/users.routes';
-import { NoTaskComponent } from './tasks/no-task/no-task.component';
+import { NoTaskComponent } from './tasks/no-task/no-task';
 import {
   UserTasksComponent,
   resolveTitle,
   resolveUserName,
-} from './users/user-tasks/user-tasks.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+} from './users/user-tasks/user-tasks';
+import { NotFoundComponent } from './not-found/not-found';
 
 const dummyCanMatch: CanMatchFn = (route, segments) => {
   const router = inject(Router);

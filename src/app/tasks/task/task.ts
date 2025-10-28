@@ -3,14 +3,14 @@ import { DatePipe } from '@angular/common';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import { type Task } from './task.model';
-import { CardComponent } from '../../shared/card/card.component';
+import { CardComponent } from '../../shared/card/card';
 import { TasksService } from '../tasks.service';
 
 @Component({
   selector: 'app-task',
   standalone: true,
-  templateUrl: './task.component.html',
-  styleUrl: './task.component.css',
+  templateUrl: './task.html',
+  styleUrl: './task.css',
   imports: [DatePipe, CardComponent],
 })
 export class TaskComponent {

@@ -14,8 +14,8 @@ import { UsersService } from '../users.service';
   selector: 'app-user-tasks',
   standalone: true,
   imports: [RouterOutlet, RouterLink],
-  templateUrl: './user-tasks.component.html',
-  styleUrl: './user-tasks.component.css',
+  templateUrl: './user-tasks.html',
+  styleUrl: './user-tasks.css',
 })
 export class UserTasksComponent {
   userName = input.required<string>();

@@ -8,8 +8,8 @@ import { TasksService } from '../tasks.service';
   selector: 'app-new-task',
   standalone: true,
   imports: [FormsModule, RouterLink],
-  templateUrl: './new-task.component.html',
-  styleUrl: './new-task.component.css',
+  templateUrl: './new-task.html',
+  styleUrl: './new-task.css',
 })
 export class NewTaskComponent {
   userId = input.required<string>();

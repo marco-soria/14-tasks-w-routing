@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-no-task',
   standalone: true,
-  templateUrl: './no-task.component.html',
-  styleUrl: './no-task.component.css',
+  templateUrl: './no-task.html',
+  styleUrl: './no-task.css',
 })
 export class NoTaskComponent {}

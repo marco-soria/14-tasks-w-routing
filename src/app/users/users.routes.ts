@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
 
-import { TasksComponent, resolveUserTasks } from '../tasks/tasks.component';
+import { TasksComponent, resolveUserTasks } from '../tasks/tasks';
 import {
   NewTaskComponent,
   canLeaveEditPage,
-} from '../tasks/new-task/new-task.component';
+} from '../tasks/new-task/new-task';
 
 export const routes: Routes = [
   {

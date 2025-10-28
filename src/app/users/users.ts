@@ -1,13 +1,13 @@
 import { Component, inject } from '@angular/core';
 
-import { UserComponent } from './user/user.component';
+import { UserComponent } from './user/user';
 import { UsersService } from './users.service';
 
 @Component({
   selector: 'app-users',
   standalone: true,
-  templateUrl: './users.component.html',
-  styleUrl: './users.component.css',
+  templateUrl: './users.html',
+  styleUrl: './users.css',
   imports: [UserComponent],
 })
 export class UsersComponent {
